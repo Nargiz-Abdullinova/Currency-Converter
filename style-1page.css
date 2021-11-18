@@ -1,0 +1,142 @@
+* {
+    font-family: sans-serif !important;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: #B7B2F3;
+
+  }
+
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 740px;
+    height: 100vh;
+}
+
+.currency-converter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    margin-bottom: 60px;
+    width: 590px;
+    height: 249px;
+    border-radius: 10px;
+    border: 1px solid #E1E1E1;
+}
+
+.upper-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 590px;
+    height: 80px;
+}
+
+.upper-container .title {
+    align-self: center;
+    font-size: 36px;
+    line-height: 42px;
+    color: #7B71E9;
+    margin-top: 10px;
+}
+
+.middle-container {
+    width: 590px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.middle-container .title {
+    font-size: 11px;
+    line-height: 13px;
+    color: #7B71E9;
+}
+
+.middle-container .input {
+    height: 45px;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    outline-color: #7B71E9;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+}
+
+.bottom-container {
+    display: flex;
+
+    width: 590px;
+    height: 78px;
+}
+
+.bottom-container .result {
+    margin-left: 30px;
+    width: 278px;
+    height: 73px;
+}
+
+.bottom-container .result .current-currency {
+    font-size: 12px;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.bottom-container .result .exchanged-result {
+    font-size: 14px;
+    color: #7B71E9;
+    /* line-height: 16px; */
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.bottom-container .exchange-rate .current-currency-rate {
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.bottom-container .exchange-rate .exchanged-currency-rate {
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.currency-converter .date .title{
+    display: flex;
+    font-size: 10px;
+    line-height: 12px;
+
+    width: 278px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 0;
+
+    padding-left: 10px;
+}
+
+

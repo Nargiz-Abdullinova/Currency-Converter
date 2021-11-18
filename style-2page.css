@@ -1,0 +1,148 @@
+
+* {
+    font-family: sans-serif !important;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    width: 100%;
+    max-width: 740px;
+    height: 100vh;
+}
+
+.exchange-rates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+    width: 100%;
+}
+
+.upper-container {
+    display: flex;
+    justify-content: center;
+    height: 86px;
+    width: 100%;
+    max-width: 740px;
+}
+
+.middle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+    max-width: 740px;
+}
+
+
+.exchange-rates .upper-container .title {
+    align-self: center;
+    font-size: 36px;
+    line-height: 42px;
+    color: #7B71E9;
+}
+
+
+.exchange-rates .middle-container .title {
+    margin: 0;
+    padding-left: 10px;
+    height: 13px;
+    
+    font-size: 11px;
+    color: #7B71E9;
+}
+
+.middle-container .currency-container .content-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 540px;
+    height: 53px;
+    margin: 5px;
+
+    border-radius: 8px;
+    border: 1px solid #E1E1E1;
+
+    cursor: pointer;
+} 
+
+.middle-container .currency-container .content-row .currency {
+    flex: 3 0;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: black;
+} 
+
+.middle-container .currency-container .content-row .currency-code {
+    flex: 1 0;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: black;
+} 
+
+.middle-container .currency-container .content-row .exchange-rate {
+    flex: 1 0;
+    margin-right: 20px;
+
+    text-align: right;
+
+    text-transform: uppercase;
+    font-size: 11px;
+    color: black;
+} 
+
+.middle-container .base-currency-container {
+    /* display: flex;
+    flex-direction: column; */
+    width: 164px;
+} 
+
+
+.middle-container .base-currency-container .base-currency-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    width: 122px;
+    height: 53px;
+    margin-top: 5px;
+    padding-left: 35px;
+    padding-right: 5px;
+
+    background-image: url("images/arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 85px;
+    background-position-y: 16px;
+
+    border-radius: 8px;
+    border: 1px solid #E1E1E1;
+
+    cursor: pointer;
+}
+
+.middle-container .base-currency-container .title {
+    padding-left: 5px;
+
+}
+
+
+
+
+
+
